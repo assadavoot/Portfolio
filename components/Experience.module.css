@@ -1,0 +1,104 @@
+.section {
+  padding: 5rem 3rem;
+  background: rgba(13, 17, 32, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--border);
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+.item {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  left: -2.4rem;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.period {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.role {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.company {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.points li {
+  font-size: 0.88rem;
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.points li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.7rem;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}

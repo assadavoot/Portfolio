@@ -1,0 +1,526 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Hero.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__bqvNd {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 3rem;
+}
+
+.Hero_text__nRZbf {
+  max-width: 600px;
+}
+
+.Hero_badge__mnOYT {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.12em;
+}
+
+.Hero_heading__Uq29U {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.Hero_accent___7FV1 {
+  color: var(--accent);
+}
+
+.Hero_subtitle__WCdI_ {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 480px;
+}
+
+.Hero_cta__1n4WS {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.Hero_btn__yK3pz {
+  padding: 0.8rem 1.8rem;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.Hero_btnPrimary__oWMOf {
+  background: var(--accent);
+  color: #050810;
+}
+
+.Hero_btnPrimary__oWMOf:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.Hero_btnGhost__50jBW {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.Hero_btnGhost__50jBW:hover {
+  background: rgba(79, 255, 255, 0.08);
+}
+
+.Hero_stats__ehS8z {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.Hero_statNum__UIVxr {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.Hero_statUnit__mMsEM {
+  color: var(--muted);
+  font-size: 1.2rem;
+}
+
+.Hero_statLabel__4qWrn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 640px) {
+  .Hero_hero__bqvNd {
+    padding: 3rem 1.5rem;
+  }
+  .Hero_stats__ehS8z {
+    gap: 1.5rem;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Experience.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Experience_section___8tqq {
+  padding: 5rem 3rem;
+  background: rgba(13, 17, 32, 0.6);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.Experience_tag__atXvl {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+}
+
+.Experience_title___zhNe {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.Experience_divider__O4f1m {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.Experience_list__D3rHA {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--border);
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+.Experience_item__9bAwM {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.Experience_item__9bAwM:last-child {
+  padding-bottom: 0;
+}
+
+.Experience_item__9bAwM::before {
+  content: '';
+  position: absolute;
+  left: -2.4rem;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.Experience_period__Uj60Z {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.Experience_role__H1xnw {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.Experience_company__Zhpqk {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.Experience_points__KPTbK {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Experience_points__KPTbK li {
+  font-size: 0.88rem;
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.Experience_points__KPTbK li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.7rem;
+}
+
+@media (max-width: 640px) {
+  .Experience_section___8tqq {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Navbar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_nav__yFFPE {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid var(--border);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  background: rgba(5, 8, 16, 0.6);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.Navbar_logo__X4o9i {
+  font-family: var(--mono);
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+}
+
+.Navbar_links__puXTb {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.Navbar_link__Ssa7S {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+  font-family: var(--mono);
+}
+
+.Navbar_link__Ssa7S:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .Navbar_nav__yFFPE {
+    padding: 1rem 1.5rem;
+  }
+  .Navbar_links__puXTb {
+    display: none;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Skills.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Skills_section__vX78F {
+  padding: 5rem 3rem;
+}
+
+.Skills_tag__m305a {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+}
+
+.Skills_title__o3_rX {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.Skills_divider__6ppKS {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.Skills_grid__18gJe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+.Skills_card__54Juz {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1.8rem;
+  border-radius: 4px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.Skills_card__54Juz:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.Skills_cat__mSfF6 {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.8rem;
+}
+
+.Skills_name__GrAHg {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.Skills_tags__EuyNB {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.Skills_tag2__J_Nf8 {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  background: rgba(79, 255, 255, 0.06);
+  border: 1px solid rgba(79, 255, 255, 0.2);
+  color: var(--accent);
+  padding: 0.25rem 0.6rem;
+  border-radius: 2px;
+}
+
+@media (max-width: 640px) {
+  .Skills_section__vX78F {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Education.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Education_section__6R7js {
+  padding: 5rem 3rem;
+}
+
+.Education_tag__JSTvD {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+}
+
+.Education_title__kAhBZ {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.Education_divider__dLECS {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.Education_card__eSsaV {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: 4px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 600px;
+  transition: border-color 0.2s;
+}
+
+.Education_card__eSsaV:hover {
+  border-color: var(--accent);
+}
+
+.Education_icon__0FJCi {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.Education_degree__1ieru {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.Education_school__zlbUP {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin: 0.3rem 0;
+}
+
+.Education_year__JbZXV {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .Education_section__6R7js {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Contact.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.Contact_section__vjyLV {
+  padding: 5rem 3rem;
+  background: rgba(13, 17, 32, 0.6);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.Contact_tag__lzT_B {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  margin-bottom: 0.8rem;
+}
+
+.Contact_title__blhTv {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.Contact_divider__o0r_2 {
+  width: 40px;
+  height: 2px;
+  background: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.Contact_grid__WlMpJ {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1rem;
+  gap: 1rem;
+  max-width: 700px;
+}
+
+.Contact_item__3TQYN {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1.2rem 1.5rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: border-color 0.2s;
+}
+
+.Contact_item__3TQYN:hover {
+  border-color: var(--accent);
+}
+
+.Contact_icon__3fG6K {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.Contact_label__0WAf5 {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.Contact_value___9ckK {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.1rem;
+  word-break: break-all;
+}
+
+@media (max-width: 640px) {
+  .Contact_section__vjyLV {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__pQtti {
+  padding: 2rem 3rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
