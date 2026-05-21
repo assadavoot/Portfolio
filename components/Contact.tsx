@@ -5,7 +5,7 @@ const contacts = [
   { icon: '✉️', label: 'EMAIL',    value: 'artdeath553@gmail.com' },
   { icon: '💬', label: 'LINE',     value: 'art-za132' },
   { icon: '📘', label: 'FACEBOOK', value: 'https://www.facebook.com/assadavoot.anukool' },
-  { icon: '📍', label: 'LOCATION', value: 'Nakornnayok, Thailand' },
+  { icon: '📍', label: 'LOCATION', value: 'Min buri / Bankok, Thailand' },
 ]
 
 export default function Contact() {
