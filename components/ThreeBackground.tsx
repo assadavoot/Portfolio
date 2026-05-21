@@ -54,11 +54,12 @@ export default function ThreeBackground() {
       new THREE.TetrahedronGeometry(2, 0),
     ]
 
-    interface ShapeMesh extends THREE.Mesh {
-      userData: { speed: { rx: number; ry: number; y: number } }
+    interface ShapeItem {
+      mesh: THREE.Mesh
+      speed: { rx: number; ry: number; y: number }
     }
 
-    const shapes: ShapeMesh[] = []
+    const shapes: ShapeItem[] = []
 
     for (let i = 0; i < 6; i++) {
       const geo = shapeGeos[i % 3]
@@ -68,21 +69,19 @@ export default function ThreeBackground() {
         transparent: true,
         opacity: 0.12 + Math.random() * 0.1,
       })
-      const mesh = new THREE.Mesh(geo, mat) as ShapeMesh
+      const mesh = new THREE.Mesh(geo, mat)
       mesh.position.set(
         (Math.random() - 0.5) * 40,
         (Math.random() - 0.5) * 30,
         (Math.random() - 0.5) * 20 - 5,
       )
-      mesh.userData = {
-        speed: {
-          rx: (Math.random() - 0.5) * 0.004,
-          ry: (Math.random() - 0.5) * 0.006,
-          y:  (Math.random() - 0.5) * 0.005,
-        },
+      const speed = {
+        rx: (Math.random() - 0.5) * 0.004,
+        ry: (Math.random() - 0.5) * 0.006,
+        y:  (Math.random() - 0.5) * 0.005,
       }
       scene.add(mesh)
-      shapes.push(mesh)
+      shapes.push({ mesh, speed })
     }
 
     /* ─── Grid ─── */
@@ -125,10 +124,10 @@ export default function ThreeBackground() {
       camera.position.y += (-my * 2 - scrollY * 0.004 - camera.position.y) * 0.03
       camera.lookAt(0, -scrollY * 0.004, 0)
 
-      shapes.forEach((m) => {
-        m.rotation.x += m.userData.speed.rx
-        m.rotation.y += m.userData.speed.ry
-        m.position.y += Math.sin(t * 0.4 + m.id) * 0.003
+      shapes.forEach(({ mesh, speed }) => {
+        mesh.rotation.x += speed.rx
+        mesh.rotation.y += speed.ry
+        mesh.position.y += Math.sin(t * 0.4 + mesh.id) * 0.003
       })
 
       starMat.opacity = 0.75 + Math.sin(t * 0.3) * 0.1
